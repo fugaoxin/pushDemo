@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECAB0A081D3E3259003E85BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAB0A071D3E3259003E85BB /* main.m */; };
+		ECAB0A0B1D3E3259003E85BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAB0A0A1D3E3259003E85BB /* AppDelegate.m */; };
+		ECAB0A0E1D3E3259003E85BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAB0A0D1D3E3259003E85BB /* ViewController.m */; };
+		ECAB0A111D3E3259003E85BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAB0A0F1D3E3259003E85BB /* Main.storyboard */; };
+		ECAB0A131D3E3259003E85BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAB0A121D3E3259003E85BB /* Assets.xcassets */; };
+		ECAB0A161D3E3259003E85BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAB0A141D3E3259003E85BB /* LaunchScreen.storyboard */; };
+		ECAB0A211D3E3259003E85BB /* JieGePushTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAB0A201D3E3259003E85BB /* JieGePushTests.m */; };
+		ECAB0A2C1D3E3259003E85BB /* JieGePushUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAB0A2B1D3E3259003E85BB /* JieGePushUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECAB0A1D1D3E3259003E85BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECAB09FB1D3E3259003E85BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECAB0A021D3E3259003E85BB;
+			remoteInfo = JieGePush;
+		};
+		ECAB0A281D3E3259003E85BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECAB09FB1D3E3259003E85BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECAB0A021D3E3259003E85BB;
+			remoteInfo = JieGePush;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECAB0A031D3E3259003E85BB /* JieGePush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JieGePush.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAB0A071D3E3259003E85BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECAB0A091D3E3259003E85BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECAB0A0A1D3E3259003E85BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECAB0A0C1D3E3259003E85BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECAB0A0D1D3E3259003E85BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECAB0A101D3E3259003E85BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECAB0A121D3E3259003E85BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECAB0A151D3E3259003E85BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECAB0A171D3E3259003E85BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAB0A1C1D3E3259003E85BB /* JieGePushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JieGePushTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAB0A201D3E3259003E85BB /* JieGePushTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JieGePushTests.m; sourceTree = "<group>"; };
+		ECAB0A221D3E3259003E85BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAB0A271D3E3259003E85BB /* JieGePushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JieGePushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAB0A2B1D3E3259003E85BB /* JieGePushUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JieGePushUITests.m; sourceTree = "<group>"; };
+		ECAB0A2D1D3E3259003E85BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECAB0A001D3E3259003E85BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAB0A191D3E3259003E85BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAB0A241D3E3259003E85BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECAB09FA1D3E3259003E85BB = {
+			isa = PBXGroup;
+			children = (
+				ECAB0A051D3E3259003E85BB /* JieGePush */,
+				ECAB0A1F1D3E3259003E85BB /* JieGePushTests */,
+				ECAB0A2A1D3E3259003E85BB /* JieGePushUITests */,
+				ECAB0A041D3E3259003E85BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECAB0A041D3E3259003E85BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB0A031D3E3259003E85BB /* JieGePush.app */,
+				ECAB0A1C1D3E3259003E85BB /* JieGePushTests.xctest */,
+				ECAB0A271D3E3259003E85BB /* JieGePushUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECAB0A051D3E3259003E85BB /* JieGePush */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB0A091D3E3259003E85BB /* AppDelegate.h */,
+				ECAB0A0A1D3E3259003E85BB /* AppDelegate.m */,
+				ECAB0A0C1D3E3259003E85BB /* ViewController.h */,
+				ECAB0A0D1D3E3259003E85BB /* ViewController.m */,
+				ECAB0A0F1D3E3259003E85BB /* Main.storyboard */,
+				ECAB0A121D3E3259003E85BB /* Assets.xcassets */,
+				ECAB0A141D3E3259003E85BB /* LaunchScreen.storyboard */,
+				ECAB0A171D3E3259003E85BB /* Info.plist */,
+				ECAB0A061D3E3259003E85BB /* Supporting Files */,
+			);
+			path = JieGePush;
+			sourceTree = "<group>";
+		};
+		ECAB0A061D3E3259003E85BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB0A071D3E3259003E85BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECAB0A1F1D3E3259003E85BB /* JieGePushTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB0A201D3E3259003E85BB /* JieGePushTests.m */,
+				ECAB0A221D3E3259003E85BB /* Info.plist */,
+			);
+			path = JieGePushTests;
+			sourceTree = "<group>";
+		};
+		ECAB0A2A1D3E3259003E85BB /* JieGePushUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB0A2B1D3E3259003E85BB /* JieGePushUITests.m */,
+				ECAB0A2D1D3E3259003E85BB /* Info.plist */,
+			);
+			path = JieGePushUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECAB0A021D3E3259003E85BB /* JieGePush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAB0A301D3E3259003E85BB /* Build configuration list for PBXNativeTarget "JieGePush" */;
+			buildPhases = (
+				ECAB09FF1D3E3259003E85BB /* Sources */,
+				ECAB0A001D3E3259003E85BB /* Frameworks */,
+				ECAB0A011D3E3259003E85BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JieGePush;
+			productName = JieGePush;
+			productReference = ECAB0A031D3E3259003E85BB /* JieGePush.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECAB0A1B1D3E3259003E85BB /* JieGePushTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAB0A331D3E3259003E85BB /* Build configuration list for PBXNativeTarget "JieGePushTests" */;
+			buildPhases = (
+				ECAB0A181D3E3259003E85BB /* Sources */,
+				ECAB0A191D3E3259003E85BB /* Frameworks */,
+				ECAB0A1A1D3E3259003E85BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECAB0A1E1D3E3259003E85BB /* PBXTargetDependency */,
+			);
+			name = JieGePushTests;
+			productName = JieGePushTests;
+			productReference = ECAB0A1C1D3E3259003E85BB /* JieGePushTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECAB0A261D3E3259003E85BB /* JieGePushUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAB0A361D3E3259003E85BB /* Build configuration list for PBXNativeTarget "JieGePushUITests" */;
+			buildPhases = (
+				ECAB0A231D3E3259003E85BB /* Sources */,
+				ECAB0A241D3E3259003E85BB /* Frameworks */,
+				ECAB0A251D3E3259003E85BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECAB0A291D3E3259003E85BB /* PBXTargetDependency */,
+			);
+			name = JieGePushUITests;
+			productName = JieGePushUITests;
+			productReference = ECAB0A271D3E3259003E85BB /* JieGePushUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECAB09FB1D3E3259003E85BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = 123;
+				TargetAttributes = {
+					ECAB0A021D3E3259003E85BB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = LK4296EJ4N;
+					};
+					ECAB0A1B1D3E3259003E85BB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ECAB0A021D3E3259003E85BB;
+					};
+					ECAB0A261D3E3259003E85BB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ECAB0A021D3E3259003E85BB;
+					};
+				};
+			};
+			buildConfigurationList = ECAB09FE1D3E3259003E85BB /* Build configuration list for PBXProject "JieGePush" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECAB09FA1D3E3259003E85BB;
+			productRefGroup = ECAB0A041D3E3259003E85BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECAB0A021D3E3259003E85BB /* JieGePush */,
+				ECAB0A1B1D3E3259003E85BB /* JieGePushTests */,
+				ECAB0A261D3E3259003E85BB /* JieGePushUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECAB0A011D3E3259003E85BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAB0A161D3E3259003E85BB /* LaunchScreen.storyboard in Resources */,
+				ECAB0A131D3E3259003E85BB /* Assets.xcassets in Resources */,
+				ECAB0A111D3E3259003E85BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAB0A1A1D3E3259003E85BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAB0A251D3E3259003E85BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECAB09FF1D3E3259003E85BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAB0A0E1D3E3259003E85BB /* ViewController.m in Sources */,
+				ECAB0A0B1D3E3259003E85BB /* AppDelegate.m in Sources */,
+				ECAB0A081D3E3259003E85BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAB0A181D3E3259003E85BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAB0A211D3E3259003E85BB /* JieGePushTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAB0A231D3E3259003E85BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAB0A2C1D3E3259003E85BB /* JieGePushUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECAB0A1E1D3E3259003E85BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECAB0A021D3E3259003E85BB /* JieGePush */;
+			targetProxy = ECAB0A1D1D3E3259003E85BB /* PBXContainerItemProxy */;
+		};
+		ECAB0A291D3E3259003E85BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECAB0A021D3E3259003E85BB /* JieGePush */;
+			targetProxy = ECAB0A281D3E3259003E85BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECAB0A0F1D3E3259003E85BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECAB0A101D3E3259003E85BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECAB0A141D3E3259003E85BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECAB0A151D3E3259003E85BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECAB0A2E1D3E3259003E85BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECAB0A2F1D3E3259003E85BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECAB0A311D3E3259003E85BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sino Dynamic Solutions Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sino Dynamic Solutions Limited";
+				INFOPLIST_FILE = JieGePush/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinodynamic.dummy.lukfook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3f9c83b6-8652-4a54-8d90-040bc106ac8b";
+				SWIFT_OBJC_BRIDGING_HEADER = "JieGePush/JieGePush-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECAB0A321D3E3259003E85BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sino Dynamic Solutions Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sino Dynamic Solutions Limited";
+				INFOPLIST_FILE = JieGePush/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinodynamic.dummy.lukfook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3f9c83b6-8652-4a54-8d90-040bc106ac8b";
+				SWIFT_OBJC_BRIDGING_HEADER = "JieGePush/JieGePush-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		ECAB0A341D3E3259003E85BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JieGePushTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ww.com.JieGePushTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JieGePush.app/JieGePush";
+			};
+			name = Debug;
+		};
+		ECAB0A351D3E3259003E85BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JieGePushTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ww.com.JieGePushTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JieGePush.app/JieGePush";
+			};
+			name = Release;
+		};
+		ECAB0A371D3E3259003E85BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JieGePushUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ww.com.JieGePushUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JieGePush;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ECAB0A381D3E3259003E85BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JieGePushUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ww.com.JieGePushUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JieGePush;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECAB09FE1D3E3259003E85BB /* Build configuration list for PBXProject "JieGePush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAB0A2E1D3E3259003E85BB /* Debug */,
+				ECAB0A2F1D3E3259003E85BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAB0A301D3E3259003E85BB /* Build configuration list for PBXNativeTarget "JieGePush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAB0A311D3E3259003E85BB /* Debug */,
+				ECAB0A321D3E3259003E85BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAB0A331D3E3259003E85BB /* Build configuration list for PBXNativeTarget "JieGePushTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAB0A341D3E3259003E85BB /* Debug */,
+				ECAB0A351D3E3259003E85BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAB0A361D3E3259003E85BB /* Build configuration list for PBXNativeTarget "JieGePushUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAB0A371D3E3259003E85BB /* Debug */,
+				ECAB0A381D3E3259003E85BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECAB09FB1D3E3259003E85BB /* Project object */;
+}
